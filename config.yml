@@ -1,0 +1,15 @@
+db_params:
+  dbname: "cow_swap"
+  user: "user1"
+  password: "password123"
+  host: "localhost"
+  port: "5432"
+  batch_size: 100
+
+dune_api:
+  api_key: "AAAAA"
+  query_id: 11111
+
+currencies:
+  currency_1: "weth"
+  currency_2: "usdc"

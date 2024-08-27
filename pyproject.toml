@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cowswap"
+version = "0.1.0"
+description = ""
+authors = ["Bapt3175 <bapt.pustoch@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+dune-client = "^1.7.4"
+psycopg2 = "^2.9.9"
+pyyaml = "^6.0.2"
+psycopg2-binary = "^2.9.9"
+apache-airflow = {extras = ["postgres", "async"], version = "^2.10.0"}
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.2"
+ruff = "^0.6.2"
+coverage = "^7.6.1"
+make = "^0.1.6.post2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
