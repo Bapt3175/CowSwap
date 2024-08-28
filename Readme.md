@@ -1,6 +1,6 @@
 # CowSwap Data Pipeline
 
-This project is designed to perform daily data processing tasks related to trades on CowSwap. The pipeline is scheduled using Apache Airflow and interacts with various APIs and a PostgreSQL database.
+This project is designed to perform daily data processing tasks related to trades on CowSwa Comparing from Cow prices to proper trade. The pipeline is scheduled using Apache Airflow and interacts with various APIs and a PostgreSQL database.
 
 ## Table of Contents
 
